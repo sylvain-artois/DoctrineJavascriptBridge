@@ -58,4 +58,4 @@ class Address
      * @ManyToOne(targetEntity="Product", inversedBy="addresses")
      */
     private $user;
-} 
+}
